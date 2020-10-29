@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form action="#" method="POST">
+  <div class="wrapper">
+    <div class="title">
+      Registration Form
+    </div>
+    <br>
+    <legend>DATA DIRI</legend>
+    <br>
+    <div class="form">
+      <div class="inputfield">
+        <label>Nama Sesuai Ijazah</label>
+          <input type="text" class="input" placeholder="masukan nama anda" required>
+       </div>
+       <div class="inputfield">
+          <label>Email Anda</label>
+          <input type="email" class="input" placeholder="masukan email anda" required>
+        </div>
+       <div class="inputfield">
+        <label for="Tanggal Lahir">Tempat Lahir</label>
+        <input type="text" class="input" placeholder="Tempat lahir" required>
+       </div>
+       <div class="inputfield">
+        <label for="Tanggal Lahir">Tanggal Lahir</label>
+        <input type="date" class="input" id="Tanggal Lahir" name="Tanggal Lahir" required>
+       </div>
+       <div class="inputfield">
+         <label>Jenis Kelamin</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">&nbsp;Laki-laki</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">&nbsp;perempuan</label><br>
+       </div>
+       <div class="inputfield">
+        <label for="Tanggal Lahir">Berat Badan</label>
+        <input type="number" class="input" placeholder="Berat Badan" required>
+        <span class="input" style="width: unset;">kg</span>
+       </div>
+       <div class="inputfield">
+        <label for="Tanggal Lahir">Tinggi Badan</label>
+        <input type="number" class="input" placeholder="Tinggi Badan" required>
+        <span class="input" style="width: unset;">Cm</span>
+       </div>
+        <div class="inputfield">
+          <label>Pendidikan Sebelumnya</label>
+          <div class="custom_select">
+            <select>
+              <option value="#">pilih</option>
+              <option value="SMA">SMA</option>
+              <option value="SMK">SMK</option>
+            </select>
+          </div>
+        </div>
+        <div class="inputfield">
+          <label>NISN</label>
+          <input type="text" class="input" placeholder="masukan NISN anda" required>
+         </div>
+        <div class="inputfield">
+          <label>Agama</label>
+          <div class="custom_select">
+            <select>
+              <option value="#">pilih</option>
+              <option value="Islam">Islam</option>
+              <option value="Katolik">Katolik</option>
+              <option value="Kristen">Kristen</option>
+              <option value="Hindu">Hindu</option>
+              <option value="Budha">Budha</option>
+              <option value="KongHuCu">KongHuCu</option>
+            </select>
+          </div>
+        </div> 
+        <div class="inputfield">
+          <label>Address</label>
+          <textarea class="textarea"></textarea>
+        </div> 
+        <div class="inputfield">
+          <label>Postal Code</label>
+          <input type="text" class="input" required>
+        </div>
+        <br/>
+        <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox" required>
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+        </div>
+        <tfoot>
+          
+         <div class="inputfield">
+           <tr>
+             <th colspan="2">
+               <input type="submit"  value="Register" class="btn" >
+              </th>
+            </tr>
+          </div>
+        </tfoot>
+      </div>
+    </div>	
+  </form>
+  </body>
+  </html>
